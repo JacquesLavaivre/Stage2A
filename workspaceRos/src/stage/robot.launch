@@ -1,0 +1,5 @@
+<launch>
+	<node name ="WaypPoint" pkg ="stage" type="WayPoint" output="screen"/>
+	<node name ="PositionFinale" pkg ="stage" type="PositionFinale" output="screen"/>
+	<node name ="TraitementImage" pkg ="stage" type ="TraitementImage" output = "screen"/>
+</launch>
