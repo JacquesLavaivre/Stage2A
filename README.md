@@ -20,8 +20,8 @@ Dépôt de travail de mon stage de 2e année
 5) Ensuite éxécuter les commandes suivantes:
   
     ```bash
-    $ source devel/setup.bash
     $ catkin_make
+    $ source devel/setup.bash
     $ roslaunch stage robot.launch
   ``` 
  
